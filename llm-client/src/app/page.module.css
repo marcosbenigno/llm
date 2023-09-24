@@ -1,0 +1,23 @@
+.container {
+  min-height: 100vh;
+  max-width: 750px;
+}
+.form {
+  width: 100vw;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.title {
+  margin-bottom: 20px;
+}
+
+.subTitle {
+  margin-bottom: 20px;
+}
+
+.results {
+  text-align: left;
+}
