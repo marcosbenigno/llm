@@ -6,9 +6,7 @@ import os
 from pybliometrics.scopus import ScopusSearch
 from pybliometrics.scopus.utils import config
 import openai
-openai.api_key = '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'
-os.environ["SCOPUS_APIKEY"] = 'd19acd970a9d11519e284c93298d3e4e'
-config['Authentication']['APIKey'] = 'd19acd970a9d11519e284c93298d3e4e'
+openai.api_key = ''
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
 
